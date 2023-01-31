@@ -1,0 +1,8 @@
+GraphicsWindow.Height = 400
+GraphicsWindow.Width = 750
+GraphicsWindow.BackgroundColor = "Black"
+GraphicsWindow.PenColor = "White"
+For X = 1 To 4
+  Turtle.Move(100)
+  Turtle.TurnRight()
+  EndFor

@@ -1,0 +1,13 @@
+Candidates["Jake"]["Age"] = "30"
+Candidates["Jake"]["Birthday"] = "30 March"
+Candidates["Ivy"]["Age"] = "25"
+Candidates["Ivy"]["Birthday"] = "09 June"
+Candidates["John"]["Age"] = "20"
+Candidates["John"]["Birthday"] = "15 May"
+Candidates["Laura"]["Age"] = "45"
+Candidates["Laura"]["Birthday"] = "08 November"
+
+TextWindow.Write("What is the name?: ")
+Name = TextWindow.Read()
+TextWindow.WriteLine("The age is: " + Candidates[Name]["Age"])
+TextWindow.WriteLine("The birthday is: " + Candidates[Name]["Birthday"])

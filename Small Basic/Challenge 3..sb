@@ -1,0 +1,7 @@
+TextWindow.Title = "Challenge 3"
+TextWindow.CursorTop = 10
+FirstNumber = 1
+SecondNumber = 2
+ThirdNumber = 3
+TextWindow.WriteLine(FirstNumber + ThirdNumber)
+TextWindow.Top = "Left"

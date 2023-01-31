@@ -1,0 +1,8 @@
+For A = 70 to 100
+  TextWindow.WriteLine(A)
+  If (A>80)
+    TextWindow.WriteLine("Passed!")
+  ElseIf
+    TextWindow.WriteLine("Failed")
+  EndIf
+EndFor

@@ -1,0 +1,22 @@
+start:
+TextWindow.Write("Get your Certificate!")
+ProgramDelay(100)
+Score = TextWindow.Read()
+If (Score>=70)Then
+  TextWindow.WriteLine("Pass!")
+  Elself(Score<70)Then
+  TextWindow.WriteLine("Fail!")
+ProgramDelay(100)
+Else
+  TextWindow.WriteLine("Please enter your score.")
+EndIf
+
+
+TextWindow.WriteLine("Please type a number with decimal!")
+Number = TextWindow.ReadNumber()
+TextWindow.WriteLine(Answer: "+Math.Round(Number)+".")
+Remainder = Math.Remainder(Math.Round(Number).2)
+If (Remainder = 0) Then
+  TextWindow.WriteLine("This Number is even")
+  ElseTextWindow.WriteLine("This is an odd number")
+EndIf

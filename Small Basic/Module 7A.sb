@@ -1,0 +1,3 @@
+TextWindow.Write("What is your favorite food?: ")
+food = TextWindow.Read()
+TextWindow.WriteLine("Your favorite food is " + food + "! Yummy!")

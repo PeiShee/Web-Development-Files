@@ -1,0 +1,40 @@
+GraphicsWindow.MouseUp = A
+GraphicsWindow.MouseDown = B
+GraphicsWindow.MouseMove = C
+GraphicsWindow.BackgroundColor = "White"
+GraphicsWindow.PenWidth = (20)
+
+Sub A
+  D = GraphicsWindow.MouseX
+  E = GraphicsWindow.MouseY
+EndSub
+
+Sub B
+  F = GraphicsWindow.MouseX
+  G = GraphicsWindow.MouseY
+EndSub
+
+Sub C
+  H = GraphicsWindow.MouseX
+  I = GraphicsWindow.MouseY
+  If (Mouse.IsLeftButtonDown) Then
+    GraphicsWindow.PenColor = GraphicsWindow.GetRandomColor ()
+    GraphicsWindow.DrawLine(D,E,H,I)
+  EndIf
+  
+  D = F 
+  F = H
+  E = G 
+  G = I
+EndSub
+
+GraphicsWindow.KeyDown = Onkeydown
+GraphicsWindow.KeyUp = Onkeyup
+
+Sub OnKeyDown
+GraphicsWindow.Title = "The " + GraphicsWindow.LastKey + " key was pressed down."
+EndSub
+
+Sub OnKeyUp
+GraphicsWindow.Title = "The " + GraphicsWindow.LastKey + " key was released."
+EndSub

@@ -1,0 +1,3 @@
+TextWindow.WriteLine("Hello")
+Program.Delay(3000)
+TextWindow.WriteLine("World")

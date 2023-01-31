@@ -1,0 +1,4 @@
+TextWindow.CursorTop = 10
+TextWindow.Write("What is your favourite subject?")
+Subject = TextWindow.Read()
+TextWindow.WriteLine("My fovourite subject is "+Subject+"!")

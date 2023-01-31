@@ -1,0 +1,15 @@
+For A = 70 to 100
+  TextWindow.WriteLine(A)
+  If (A>=80) Then
+    TextWindow.WriteLine("Passed!")
+  Else
+    TextWindow.WriteLine("Failed")
+  EndIf
+EndFor
+  
+  
+  Amount = 1025
+While(Amount>1)
+  TextWindow.WriteLine(Amount)
+  Amount = Amount/2
+ EndWhile

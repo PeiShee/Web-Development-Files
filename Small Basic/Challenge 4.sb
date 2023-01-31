@@ -1,0 +1,5 @@
+FirstNumber = 80
+SecondNumber = 90
+If (TextWindow.WriteLine(FirstNumber + SecondNumber/2)>80)Then
+  TextWindow.WriteLine("Passed!")
+  EndIf

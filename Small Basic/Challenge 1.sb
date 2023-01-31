@@ -1,0 +1,7 @@
+TextWindow.BackgroundColor = "Blue"
+TextWindow.ForegroundColor = "Whtte"
+TextWindow.WriteLine("Hello!")
+For i = 1 To 10
+  GraphicsWindow.BackgroundColor = GraphicsWindow.GetRandomColor()
+  Program.Delay(1000)
+EndFor

@@ -1,0 +1,9 @@
+GraphicsWindow.Height=500
+GraphicsWindow.Width=500
+GraphicsWindow.FontItalic="true"
+GraphicsWindow.PenWidth="50"
+GraphicsWindow.PenColor="Red"
+GraphicsWindow.DrawLine(0,0,100,0)
+GraphicsWindow.SetPixel(30,30,"Pink")
+GraphicsWindow.DrawBoundText(50,50,50,"Orange")
+GraphicsWindow.DrawBoundText(200,100,20,"Pink")

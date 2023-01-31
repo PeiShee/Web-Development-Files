@@ -1,0 +1,5 @@
+Amount = 1025
+While(Amount>1)
+  TextWindow.WriteLine(Amount)
+  Amount = Amount/2
+ EndWhile

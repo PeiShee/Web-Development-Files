@@ -1,0 +1,25 @@
+TextWindow.Write("Enter your name:_")
+'this instruct user to type their name
+Name = TextWindow.Read()
+'this assigns the program what the variable name typed by the user
+TextWindow.Write(""+Name+", Please press enter for date.")
+'this print text instruct the use about the next step to get the date and time.
+Date = TextWindow.Read()
+'user will press enter which will be the variable date
+TextWindow.Write("Date:"+Date+"")
+'this prints the date as text 
+PrintDate()
+'this name the subroutine
+Sub PrintDate
+'this start the subroutine
+TextWindow.WriteLine(Clock.Date)
+'this accesses the computer's clock and return the date
+EndSub
+'this end the subroutine
+TextWindow.Write("Please press enter again for time.")
+Time = TextWindow.Read()
+TextWindow.Write("Time:"+Time+"")
+PrintTime()
+Sub PrintTime
+  TextWindow.WriteLine(Clock.time)
+  EndSub

@@ -1,0 +1,17 @@
+body {
+    background-color: lightblue;
+    color: darkblue;
+}
+
+.photo {
+    width: 600px;
+    height: 300px;
+    border-style: dotted;
+    border-width: 2px;
+    border-color: red;
+
+}
+
+h3 {
+    text-align: center;
+}

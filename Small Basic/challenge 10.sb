@@ -1,0 +1,13 @@
+GraphicsWindow.Height = 2000
+GraphicsWindow.Width = 2000
+GraphicsWindow.penColor="Red"
+GraphicsWindow.DrawEllipse(30,30,30,30)
+GraphicsWindow.BrushColor="Red"
+GraphicsWindow.FillEllipse(80,80,80,80)
+GraphicsWindow.BrushColor="Pink"
+GraphicsWindow.FillTriangle(300,150,150,300,450,300)
+GraphicsWindow.BrushColor="Purple"
+GraphicsWindow.FillRectangle(300,400,200,100)
+GraphicsWindow.BrushColor="Black"
+Triangle=Shapes.AddTriangle(300,150,150,300,450,300)
+Shapes.Animate(Triangle,500,500,1000)

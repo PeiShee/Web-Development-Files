@@ -1,0 +1,18 @@
+TextWindow.Write("Key in the date")
+Date_1 = TextWindow.Read()
+TextWindow.Write("Key in another date")
+Date_2 = TextWindow.Read()
+TextWindow.Write("Key in one last date")
+Date_3 = TextWindow.Read()
+Closest_Date()
+TextWindow.WriteLine("The closest date is: "+Closest_Date)
+Sub Closest_Date
+  If Date_1 > Date_2 And Date_1 > Date_3 Then
+    Closest_Date = Date_1
+  ElseIf  Date_2 > Date_1 And Date_2 > Date_3 Then
+    Closest_Date = Date_2
+     ElseIf  Date_3 > Date_1 And Date_3 > Date_2 Then
+       Closest_Date = Date_3
+     EndIf
+   EndSub
+   
